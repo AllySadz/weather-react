@@ -7,7 +7,7 @@ import "./Search.css";
 // better for readability
 
 export default function Search() {
-  const [icon, setIcon] = useState("");
+  // const [icon, setIcon] = useState("");
   const [city, setCity] = useState("");
 
   function handleChange(event) {

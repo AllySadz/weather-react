@@ -3,9 +3,10 @@ import MainImg from "./MainImg";
 import "./Overview.css";
 
 export default function Overview(props) {
-  const [city, setCity] = useState("");
+  // const [city, setCity] = useState("");
 
   console.log(props);
+
   return (
     <div className="overview">
       <h1 id="city"> {props.city} </h1>
