@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import MainImg from "./MainImg";
 import "./Overview.css";
 
