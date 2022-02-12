@@ -12,7 +12,11 @@ export default function App() {
           <Overview />
           <Forecast />
           <small className="github-link">
-            <a href="https://github.com/AllySadz/weather-react" target="_blank">
+            <a
+              href="https://github.com/AllySadz/weather-react"
+              target="_blank"
+              rel="noreferrer"
+            >
               open-source code
             </a>
             , by Ally Sadzius
