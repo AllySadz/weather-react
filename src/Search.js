@@ -23,9 +23,9 @@ export default function Search() {
     //setDescription(response.data.weather[0].description);
     //setWind(response.data.wind.speed);
     //setHumidity(response.data.main.humidity);
-    setIcon(
-      `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
-    );
+    //setIcon(
+    // `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+    //);
   }
 
   function handleSubmit(event) {
