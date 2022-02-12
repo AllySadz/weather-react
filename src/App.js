@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Search from "./Search";
+import Overview from "./Overview";
+import Forecast from "./Forecast";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="outer-container">
+        <div className="weather-app">
+          <Search />
+          <Overview />
+          <Forecast />
+          <small className="github-link">
+            <a
+              href="https://github.com/AllySadz/vanilla-weather-app"
+              target="_blank"
+            >
+              open-source code
+            </a>
+            , by Ally Sadzius
+          </small>
+        </div>
+      </div>
     </div>
   );
 }
-
-export default App;

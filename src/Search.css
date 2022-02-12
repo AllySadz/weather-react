@@ -1,0 +1,41 @@
+.searchBar input {
+  border-radius: 3px;
+  border: 2px none #005f73;
+  width: 100%;
+  height: 30px;
+  padding-left: 7px;
+  background: #edf2fb;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2px;
+}
+.searchBar {
+  width: 23%;
+  outline: none;
+  border-radius: 2px;
+}
+.searchBar input:focus {
+  outline: none;
+}
+.submitButton {
+  width: 10%;
+  margin-left: 10px;
+}
+.submitButton input {
+  border-radius: 3px;
+  border: 2px solid #005f73;
+  height: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: #005f73;
+  color: white;
+}
+.submitButton :hover {
+  cursor: pointer;
+}
+.search.form {
+  margin-bottom: 20px;
+}
+#searchForm .row {
+  display: flex;
+  justify-content: left;
+}
